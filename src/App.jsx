@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import Header from "./components/Header.jsx";
 import Gallery from "./components/Gallary.jsx";
 import Values from "./components/Values.jsx";
@@ -17,6 +18,7 @@ function App() {
       <Academics />
       <Students />
       <Footer />
+      <Analytics />
     </>
   );
 }

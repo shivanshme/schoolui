@@ -5,6 +5,7 @@ import {
   FaInstagram,
   FaYoutube,
   FaVoicemail,
+  FaGlobe,
 } from "react-icons/fa";
 const scrollTo = (id) => {
   document.getElementById(id)?.scrollIntoView({
@@ -49,9 +50,14 @@ function Footer() {
           <p>
             <FaVoicemail /> withraghav@gmail.com
           </p>
-          <p>
-            <FaVoicemail /> adi700200@gmail.com
-          </p>
+          <a
+            href="https://www.indianvoice24.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-link"
+          >
+            <FaGlobe /> indianvoice24.com
+          </a>
           <p>
             <FaMapMarkerAlt /> Gausganj Road, Near Balamau Railway Crossing,
             Balamau Hardoi UP (241126)

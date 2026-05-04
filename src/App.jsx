@@ -13,8 +13,8 @@ function App() {
       <Header />
       <Gallery />
       <Values />
-      <Academics />
       <Core />
+      <Academics />
       <Students />
       <Footer />
     </>
